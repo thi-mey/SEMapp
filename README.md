@@ -24,3 +24,5 @@ XXX
 ```
 ## How it works
 
+
+![How](https://github.com/user-attachments/assets/c1d3bc8b-aebb-4d0c-869d-770910bd123a)
