@@ -9,7 +9,8 @@ The GUI create folder, can split merged .tiff images
 
 ## 📂 Project Structure
 
-## Installation from PyPI:
+# Installation:
+## From PyPI (recommanded):
 
 Make sure that Python (> 3.8) is already installed on your computer.
 
@@ -17,11 +18,32 @@ Make sure that Python (> 3.8) is already installed on your computer.
 pip install XXX
 ```
 
-## Installation from Github:
+## From Github:
 
 ```bash
 XXX
 ```
+# Quick start
+
+Launch the application from the Windows search bar:
+
+```
+SEMapp
+```
+
+Once the GUI opens, select a directory containing .klarf and merged .tiff files.
+You must first use the "Create Folder" function. Then, adjust the settings based on the Field of View (FOV).
+
+Merged .tiff files can be split and renamed using the "Split and Rename" function.
+The resulting filenames will follow this format:
+FOV_Xpos_Ypos_DETECTOR
+
+Where:
+
+FOV: Field of view in µm (e.g., 1, 2, 3, 4…)
+
+DETECTOR: Type of detector used (e.g., BSE, SE1, SE2, etc.)
+
 ## How it works 
 (Thanks to Joseph)
 
