@@ -15,7 +15,7 @@ The GUI create folder, can split merged .tiff images
 Make sure that Python (> 3.8) is already installed on your computer.
 
 ```bash
-pip install XXX
+pip install semapp
 ```
 
 # Quick start
