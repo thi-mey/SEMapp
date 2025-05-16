@@ -1,0 +1,37 @@
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "Semapp"
+version = "1.0.0"
+authors = [
+  { name="Thibaut Meyer", email="thibaut.meyer3@gmail.com" },
+]
+description = "Package for SEM visualization"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "SEM",
+    "GUI",
+]
+dependencies = [
+    "matplotlib==3.8.3",
+    "numpy>=1.21,<2.0",
+    "pandas>=2.2.0",
+    "Pillow>=11.0.0",
+    "PyQt5==5.15.11",
+    "PyQt5_sip>=12.15.0,<13.0.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "GPL v3" }
+license-files = ["LICENSE*"]
+
+[project.gui-scripts]
+Semapp = "semapp.main:main"
+
+[project.urls]
+Homepage = "https://github.com/thi-mey/SEMapp"
