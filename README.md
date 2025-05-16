@@ -31,9 +31,9 @@ You must first use the "Create Folder" function. Then, adjust the settings based
 
 Merged .tiff files can be split and renamed using the "Split and Rename" function.
 The resulting filenames will follow this format:
-FOV_Xpos_Ypos_DETECTOR
+**FOV_Xpos_Ypos_DETECTOR.tiff**
 
-Where:
+With:
 
 FOV: Field of view in µm (e.g., 1, 2, 3, 4…)
 
@@ -52,9 +52,12 @@ DETECTOR: Type of detector used (e.g., BSE, SE1, SE2, etc.)
 
 ### Functions
 
-**Create folder**: Allows the creation of subfolders based on file names. The data.tif and klarf (.001) files are moved and renamed. This is important, as it prevents them from being deleted later on.\
+**Create folder**: Allows the creation of subfolders based on file names. The .tif and klarf (.001) files are moved and renamed. This is important, as it prevents them from being deleted later on.\
+\
 **Split .tif and rename** : Allows the main .tif file to be split into individual images. The main file is still retained. Note that the file is split using the tags.\
+\
 **Rename (w/o tag)**: If you have the images without captions, you can rename them. The "Defect_i" correspond to the positions "i" found in the main tagged TIFF file. That’s why you need to ask for it with or without tags. **Note that you must first move the klarf file in the subfolder** (e.g., XXXX_RECIPENAME_NUM_FOLDER must be placed in "w_NUM_FOLDER" or "NUM_FOLDER" folder)\
+\
 **Clean**: Allows you to delete all images except the original .tif file.\
 
 # Acknowledgements
