@@ -4,8 +4,8 @@ A GUI to visualize SEM images (using merged .tiff image).
 
 ## 🧪 Description
 
-The GUI create folder, can split merged .tiff images
-
+The GUI can create folders, split merged .tiff files, and rename .tiff files.
+Both the merged .tiff and the klarf (.001) files are necessary.
 
 ## 📂 Project Structure
 
@@ -26,7 +26,7 @@ Launch the application from the Windows search bar:
 SEMapp
 ```
 
-Once the GUI opens, select a directory containing .klarf and merged .tiff files.
+Once the GUI opens, select a directory containing klarf (.001) and merged .tiff files.
 You must first use the "Create Folder" function. Then, adjust the settings based on the Field of View (FOV).
 
 Merged .tiff files can be split and renamed using the "Split and Rename" function.
