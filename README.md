@@ -18,11 +18,6 @@ Make sure that Python (> 3.8) is already installed on your computer.
 pip install XXX
 ```
 
-## From Github:
-
-```bash
-XXX
-```
 # Quick start
 
 Launch the application from the Windows search bar:
